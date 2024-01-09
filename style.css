@@ -1,0 +1,270 @@
+/* HEADER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header-section{
+    width: 100%;
+    height: 730px;
+    background-color: #24053E;
+
+}
+.img-box{
+    /* margin: 40px 0 100px 0 ; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.container{
+   max-width: 1440px;
+   width: 100%;
+   padding-left: 150px;
+   padding-right: 150px;
+ 
+}
+.oval-left{
+    
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    right: -100px;
+}
+.oval-right{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: -165px;
+}
+
+
+
+
+
+
+.h3-title {
+    color: var(--White, #FFF);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-decoration: underline aqua;
+
+}
+.h3-title::after{
+    content: "";
+    width: 140px;
+    height: 3px;
+    background-color: aqua;
+
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.header-text{
+    width: 635px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading L */
+    font-family: Fraunces 144pt;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    margin-top: 90px;
+    /* 100% */
+
+}
+
+.header-btn{
+    width: 161px;
+    height: 61px;
+    flex-shrink: 0;
+    background: var(--Eucaplyptus, #44FFA1);
+    margin-top: 37px;
+}
+
+.image-phone{
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 66px; */
+        position: absolute;
+        width: 715px;
+        top: 500px;
+        left: 400px;
+        z-index: 4;
+        height: 427px;
+        overflow: hidden;
+}
+
+/* header */
+/* MAIN */
+.main{
+    margin-top: 350px;
+
+}
+
+
+
+
+.section-1 {
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-son {
+    width: 56px;
+    height: 56px;
+    color: #24053E;
+    border-radius: 50%;
+    border: 2px solid #584D62;
+    text-align: center;
+    font-family: Fraunces 144pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 5px;
+
+  
+}
+
+.p-info {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: Fraunces 144pt;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 125% */
+    margin-top: 50px;
+}
+
+.main-text {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;margin-top: 28px;
+    /* 177.778% */
+
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-boy {
+    padding-top: 33px;
+    width: 450.287px;
+    height: 453px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), #44FFA1 0px 0px / 100% 100% no-repeat;
+    border-radius: 50%;
+}
+
+.box-cards {
+    width: 730px;
+    height: 413px;
+    flex-shrink: 0;
+    background: var(--Dark-Purple, #21053e);
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-left: -90px;
+}
+
+.bio {
+    padding: 10px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading M */
+    font-family: Fraunces 144pt;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    /* 114.286% */
+    margin-top: 64px;
+    margin-left: 64px;
+}
+
+.p-box-card {
+
+    width: 602px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    padding: 0 10px;
+    /* Body */
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+    margin-left: 64px;
+    margin-top: 32px;
+}
+
+.all-btn {
+    width: 190px;
+    height: 61px;
+    flex-shrink: 0;
+    background: var(--Eucaplyptus, #44FFA1);
+    margin-left: 64px;
+    margin-top: 32px;
+
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 110px;
+}  
+.footer-img{
+    width: 116px;
+    height: 102.224px;
+    flex-shrink: 0;
+    
+
+}
